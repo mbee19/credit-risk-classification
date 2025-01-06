@@ -13,7 +13,8 @@ I then used the Logistic Regression model so that the y variable was classified 
 ## Results
 
 * Machine Learning Model 1:
-    **Healthy Loans ('0'):**
+
+**Healthy Loans ('0'):**
 - Precision: 
 Out of all the loans that the model predicited would be a Healthy Loan candidate, 100% were actually Healthy Loan candidates. This means that there were no false positives for the Healthy Loans, so no High Risk candidates were misidentified as Healthy Loan candidates. 
 
