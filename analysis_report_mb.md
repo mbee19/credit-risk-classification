@@ -34,12 +34,13 @@ The model correctly predicted 94% of all the High Risk Loans that were actually 
 - F1-Score: 
 For High Risk Loans ('1'), the F1-Score of .89 lets us know that the model does a decent job of classifying High Risk Loan candidates, but is less accurate and reliable than the F1-Score for Healthy Loans ('0'). The model is not completely accurate and which lets us know that there are some false negatives and false positives: loan candidates being miscategorized as either High Risk when they are Healthy or Healthy when they are High Risk. 
 
+**Overall:** 
+- Accuracy: 
+The Accuracy Score of .99 tells us that the model as a whole is strong, with only 1% of the total predictions made being incorrect or misclassified (False Postive or False Negative). 
 
 ## Summary
 
-Overall, the Accuracy Score of .99 tells us that the model as a whole is strong, with only 1% of the total predictions made being incorrect or misclassified. 
-
-It is more important to the financial institution to predict the '1's (High Risk Loans) because it is costly to misclassify someone who is likely to default on their loan. 
+Given the precision, recall, F1-Scores, and the accuracy, I can see that the model as a whole is strong. However, it is more important to the financial institution to predict the '1's (High Risk Loans), where the model is weaker. Because it is costly to misclassify someone who is likely to default on their loan, this model is stronger to use for Healthy Loan candidate predictions. 
 
 If the financial institution using thie model allows a 99% accuracy and deems 1% appropriate for their margin of error when classifying candidates as either healthy or high risk, I would recommend this model to them. 
 
